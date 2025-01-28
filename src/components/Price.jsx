@@ -21,12 +21,6 @@ const Price = () => {
                             </p>
                             <ul>
                                 {
-                                    // pricingOptions.features.map((feature,index)=>(
-                                    //     <li key={index} className="mt-8 flex items-center">
-                                    //         <CheckCircle2/>
-                                    //         <span className='ml-2'>{feature}</span>
-                                    //     </li>
-                                    // ))
                                     option.features.map((feature,index)=>(
                                               <li key={index} className="mt-8 flex items-center">
                                             <CheckCircle2/>
